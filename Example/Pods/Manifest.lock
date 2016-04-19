@@ -1,0 +1,17 @@
+PODS:
+  - JZKits (0.1.0)
+  - Kiwi (2.4.0)
+
+DEPENDENCIES:
+  - JZKits (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  JZKits:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JZKits: b2eadcb8460f141de717992c2f1ae4ffe2b3d7e7
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+
+COCOAPODS: 0.39.0

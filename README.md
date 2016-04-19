@@ -22,7 +22,7 @@ pod "JZKits"
 
 ## Author
 
-JaxZhou, zhoujinxiu@didapinche.com
+JaxZhou, jaxzhou@hotmail.com
 
 ## License
 

@@ -1,5 +1,4 @@
-use_frameworks!
-
+platform :ios, '7.0'
 
 target 'JZKits_Tests', :exclusive => true do
   pod 'JZKits', :path => '../'
