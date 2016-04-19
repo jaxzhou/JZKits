@@ -20,12 +20,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JZKits"
+  s.homepage         = "https://github.com/jaxzhou/JZKits"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "JaxZhou" => "zhoujinxiu@didapinche.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JZKits.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/jaxzhou/JZKits.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/jaxzhou'
 
   s.ios.deployment_target = '7.0'
 
