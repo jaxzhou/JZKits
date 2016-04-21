@@ -136,8 +136,11 @@
 @implementation UITextField (MaxLength)
 
 +(void)load{
-    [self siwzzlingSelector:@selector(setDelegate:) toSelector:@selector(pass_setDelegate:)];
-    [self siwzzlingSelector:@selector(setText:) toSelector:@selector(wrap_setText:)];
+    static dispatch_once_t token;
+    dispatch_once(&token, ^{
+        [self siwzzlingSelector:@selector(setDelegate:) toSelector:@selector(pass_setDelegate:)];
+        [self siwzzlingSelector:@selector(setText:) toSelector:@selector(wrap_setText:)];
+    });
 }
 
 -(void)setMaxLength:(NSInteger)maxLength{

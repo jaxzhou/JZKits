@@ -45,6 +45,12 @@
 		35DABC51AE84526843B55F213A0A9E6B /* UITextField_MaxLength.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BFA4115C05FF69B13C6D8545B48FCD /* UITextField_MaxLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39C9EF320622EA4DDFB86F2C00D0E71A /* KWBeKindOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A41D6F6067F7BF48C7866AB4AFF435 /* KWBeKindOfClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A11ACB2B8B22B6364C429C1387CEE56 /* KWDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E263AA073050A569B826F0671474DA /* KWDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A1E4B4E1CC6367A003FD3D3 /* UITextField_InputMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1E4B4C1CC6367A003FD3D3 /* UITextField_InputMask.h */; };
+		3A1E4B4F1CC6367A003FD3D3 /* UITextField_InputMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E4B4D1CC6367A003FD3D3 /* UITextField_InputMask.m */; };
+		3A1E4B551CC647BC003FD3D3 /* NSData_Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1E4B531CC647BC003FD3D3 /* NSData_Crypto.h */; };
+		3A1E4B561CC647BC003FD3D3 /* NSData_Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E4B541CC647BC003FD3D3 /* NSData_Crypto.m */; };
+		3A1E4B591CC64C05003FD3D3 /* NSDate_Stringify.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1E4B571CC64C05003FD3D3 /* NSDate_Stringify.h */; };
+		3A1E4B5A1CC64C05003FD3D3 /* NSDate_Stringify.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E4B581CC64C05003FD3D3 /* NSDate_Stringify.m */; };
 		3BC0A3EBF4E627DA4F209523652D9BD7 /* KWBeTrueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F089912E34F9D950E03860D109D65 /* KWBeTrueMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3C79066863751FDB5BB5408A046E3F9A /* KWRegularExpressionPatternMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D734C572DFF839743F503E3D517B2F /* KWRegularExpressionPatternMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3C9F187282E16707FF9B214CBB527D96 /* KWAfterAllNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C670251B514F676190D436BF4C442F5D /* KWAfterAllNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -271,6 +277,12 @@
 		37E41ED0F28EC83725179603590A310F /* KWBeSubclassOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeSubclassOfClassMatcher.m; path = Classes/Matchers/KWBeSubclassOfClassMatcher.m; sourceTree = "<group>"; };
 		38560AD2C9519903B0BA54BC06A48C43 /* KWBeBetweenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeBetweenMatcher.h; path = Classes/Matchers/KWBeBetweenMatcher.h; sourceTree = "<group>"; };
 		38CA8E3327267FC404340EE85C3E50A5 /* KWMatcherFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatcherFactory.h; path = Classes/Core/KWMatcherFactory.h; sourceTree = "<group>"; };
+		3A1E4B4C1CC6367A003FD3D3 /* UITextField_InputMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextField_InputMask.h; sourceTree = "<group>"; };
+		3A1E4B4D1CC6367A003FD3D3 /* UITextField_InputMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextField_InputMask.m; sourceTree = "<group>"; };
+		3A1E4B531CC647BC003FD3D3 /* NSData_Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSData_Crypto.h; sourceTree = "<group>"; };
+		3A1E4B541CC647BC003FD3D3 /* NSData_Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData_Crypto.m; sourceTree = "<group>"; };
+		3A1E4B571CC64C05003FD3D3 /* NSDate_Stringify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDate_Stringify.h; sourceTree = "<group>"; };
+		3A1E4B581CC64C05003FD3D3 /* NSDate_Stringify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDate_Stringify.m; sourceTree = "<group>"; };
 		3D3E9211F5E98C6303AA2C7470826051 /* KWBlockRaiseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlockRaiseMatcher.m; path = Classes/Matchers/KWBlockRaiseMatcher.m; sourceTree = "<group>"; };
 		3DF1F19DA3514D59ABBB08AC0729B16E /* KWExampleDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleDelegate.h; path = Classes/Core/KWExampleDelegate.h; sourceTree = "<group>"; };
 		3FE91A40EB2D94CA243D9B0915C01C9B /* KWStringPrefixMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringPrefixMatcher.m; path = Classes/Matchers/KWStringPrefixMatcher.m; sourceTree = "<group>"; };
@@ -500,6 +512,8 @@
 			children = (
 				26BFA4115C05FF69B13C6D8545B48FCD /* UITextField_MaxLength.h */,
 				2F22A01038DB18E2334276EA88026D33 /* UITextField_MaxLength.m */,
+				3A1E4B4C1CC6367A003FD3D3 /* UITextField_InputMask.h */,
+				3A1E4B4D1CC6367A003FD3D3 /* UITextField_InputMask.m */,
 			);
 			path = UITextField;
 			sourceTree = "<group>";
@@ -522,10 +536,38 @@
 		2D634D766E1383A0740195D4D7317250 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3A1E4B501CC6479C003FD3D3 /* Foundation */,
 				3EF10A314B14A5EFB81115BAE897E24B /* Runtime */,
 				FD1C2D54EDF312199930040432F23C74 /* UIKit */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		3A1E4B501CC6479C003FD3D3 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				3A1E4B511CC6479C003FD3D3 /* NSData */,
+				3A1E4B521CC6479C003FD3D3 /* NSDate */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		3A1E4B511CC6479C003FD3D3 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				3A1E4B531CC647BC003FD3D3 /* NSData_Crypto.h */,
+				3A1E4B541CC647BC003FD3D3 /* NSData_Crypto.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		3A1E4B521CC6479C003FD3D3 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				3A1E4B571CC64C05003FD3D3 /* NSDate_Stringify.h */,
+				3A1E4B581CC64C05003FD3D3 /* NSDate_Stringify.m */,
+			);
+			path = NSDate;
 			sourceTree = "<group>";
 		};
 		3EF10A314B14A5EFB81115BAE897E24B /* Runtime */ = {
@@ -828,8 +870,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1E4B551CC647BC003FD3D3 /* NSData_Crypto.h in Headers */,
+				3A1E4B4E1CC6367A003FD3D3 /* UITextField_InputMask.h in Headers */,
 				9732910676370C62CB81E3FED31E14FD /* NSObject_Swizzling.h in Headers */,
 				35DABC51AE84526843B55F213A0A9E6B /* UITextField_MaxLength.h in Headers */,
+				3A1E4B591CC64C05003FD3D3 /* NSDate_Stringify.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,7 +1109,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1E4B4F1CC6367A003FD3D3 /* UITextField_InputMask.m in Sources */,
 				9A7A491C880B603F9B029EF40CB4368C /* JZKits-dummy.m in Sources */,
+				3A1E4B5A1CC64C05003FD3D3 /* NSDate_Stringify.m in Sources */,
+				3A1E4B561CC647BC003FD3D3 /* NSData_Crypto.m in Sources */,
 				6195F7EC42174BBE946E14C72037ED1F /* NSObject_Swizzling.m in Sources */,
 				E0D2E98DE38D43E47301251CB1E61124 /* UITextField_MaxLength.m in Sources */,
 			);
