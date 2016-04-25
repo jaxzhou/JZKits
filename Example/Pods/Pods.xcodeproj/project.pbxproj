@@ -59,6 +59,8 @@
 		3AE98C551CCE01970034240E /* UIImage_Redraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE98C531CCE01970034240E /* UIImage_Redraw.m */; };
 		3AE98C5A1CCE03400034240E /* UIView_Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE98C581CCE03400034240E /* UIView_Snapshot.h */; };
 		3AE98C5B1CCE03400034240E /* UIView_Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE98C591CCE03400034240E /* UIView_Snapshot.m */; };
+		3AE98C5E1CCE07590034240E /* NSDate_Caculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE98C5C1CCE07590034240E /* NSDate_Caculator.h */; };
+		3AE98C5F1CCE07590034240E /* NSDate_Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE98C5D1CCE07590034240E /* NSDate_Caculator.m */; };
 		3BC0A3EBF4E627DA4F209523652D9BD7 /* KWBeTrueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F089912E34F9D950E03860D109D65 /* KWBeTrueMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3C79066863751FDB5BB5408A046E3F9A /* KWRegularExpressionPatternMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D734C572DFF839743F503E3D517B2F /* KWRegularExpressionPatternMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3C9F187282E16707FF9B214CBB527D96 /* KWAfterAllNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C670251B514F676190D436BF4C442F5D /* KWAfterAllNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -299,6 +301,8 @@
 		3AE98C531CCE01970034240E /* UIImage_Redraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImage_Redraw.m; sourceTree = "<group>"; };
 		3AE98C581CCE03400034240E /* UIView_Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_Snapshot.h; sourceTree = "<group>"; };
 		3AE98C591CCE03400034240E /* UIView_Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_Snapshot.m; sourceTree = "<group>"; };
+		3AE98C5C1CCE07590034240E /* NSDate_Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDate_Caculator.h; sourceTree = "<group>"; };
+		3AE98C5D1CCE07590034240E /* NSDate_Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDate_Caculator.m; sourceTree = "<group>"; };
 		3D3E9211F5E98C6303AA2C7470826051 /* KWBlockRaiseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlockRaiseMatcher.m; path = Classes/Matchers/KWBlockRaiseMatcher.m; sourceTree = "<group>"; };
 		3DF1F19DA3514D59ABBB08AC0729B16E /* KWExampleDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleDelegate.h; path = Classes/Core/KWExampleDelegate.h; sourceTree = "<group>"; };
 		3FE91A40EB2D94CA243D9B0915C01C9B /* KWStringPrefixMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringPrefixMatcher.m; path = Classes/Matchers/KWStringPrefixMatcher.m; sourceTree = "<group>"; };
@@ -582,6 +586,8 @@
 			children = (
 				3A1E4B571CC64C05003FD3D3 /* NSDate_Stringify.h */,
 				3A1E4B581CC64C05003FD3D3 /* NSDate_Stringify.m */,
+				3AE98C5C1CCE07590034240E /* NSDate_Caculator.h */,
+				3AE98C5D1CCE07590034240E /* NSDate_Caculator.m */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";
@@ -922,6 +928,7 @@
 				3A1E4B551CC647BC003FD3D3 /* NSData_Crypto.h in Headers */,
 				3AE98C5A1CCE03400034240E /* UIView_Snapshot.h in Headers */,
 				3AE98C501CCE00F90034240E /* UIImage_Resize.h in Headers */,
+				3AE98C5E1CCE07590034240E /* NSDate_Caculator.h in Headers */,
 				3AE98C541CCE01970034240E /* UIImage_Redraw.h in Headers */,
 				3A1E4B4E1CC6367A003FD3D3 /* UITextField_InputMask.h in Headers */,
 				9732910676370C62CB81E3FED31E14FD /* NSObject_Swizzling.h in Headers */,
@@ -1164,6 +1171,7 @@
 				3A1E4B4F1CC6367A003FD3D3 /* UITextField_InputMask.m in Sources */,
 				9A7A491C880B603F9B029EF40CB4368C /* JZKits-dummy.m in Sources */,
 				3AE98C5B1CCE03400034240E /* UIView_Snapshot.m in Sources */,
+				3AE98C5F1CCE07590034240E /* NSDate_Caculator.m in Sources */,
 				3A1E4B5A1CC64C05003FD3D3 /* NSDate_Stringify.m in Sources */,
 				3A1E4B561CC647BC003FD3D3 /* NSData_Crypto.m in Sources */,
 				6195F7EC42174BBE946E14C72037ED1F /* NSObject_Swizzling.m in Sources */,
