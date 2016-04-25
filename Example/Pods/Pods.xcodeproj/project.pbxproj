@@ -51,6 +51,14 @@
 		3A1E4B561CC647BC003FD3D3 /* NSData_Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E4B541CC647BC003FD3D3 /* NSData_Crypto.m */; };
 		3A1E4B591CC64C05003FD3D3 /* NSDate_Stringify.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1E4B571CC64C05003FD3D3 /* NSDate_Stringify.h */; };
 		3A1E4B5A1CC64C05003FD3D3 /* NSDate_Stringify.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E4B581CC64C05003FD3D3 /* NSDate_Stringify.m */; };
+		3AE98C4B1CCE008D0034240E /* UIDevice_Hardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE98C491CCE008D0034240E /* UIDevice_Hardware.h */; };
+		3AE98C4C1CCE008D0034240E /* UIDevice_Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE98C4A1CCE008D0034240E /* UIDevice_Hardware.m */; };
+		3AE98C501CCE00F90034240E /* UIImage_Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE98C4E1CCE00F90034240E /* UIImage_Resize.h */; };
+		3AE98C511CCE00F90034240E /* UIImage_Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE98C4F1CCE00F90034240E /* UIImage_Resize.m */; };
+		3AE98C541CCE01970034240E /* UIImage_Redraw.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE98C521CCE01970034240E /* UIImage_Redraw.h */; };
+		3AE98C551CCE01970034240E /* UIImage_Redraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE98C531CCE01970034240E /* UIImage_Redraw.m */; };
+		3AE98C5A1CCE03400034240E /* UIView_Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE98C581CCE03400034240E /* UIView_Snapshot.h */; };
+		3AE98C5B1CCE03400034240E /* UIView_Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE98C591CCE03400034240E /* UIView_Snapshot.m */; };
 		3BC0A3EBF4E627DA4F209523652D9BD7 /* KWBeTrueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6F089912E34F9D950E03860D109D65 /* KWBeTrueMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3C79066863751FDB5BB5408A046E3F9A /* KWRegularExpressionPatternMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D734C572DFF839743F503E3D517B2F /* KWRegularExpressionPatternMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3C9F187282E16707FF9B214CBB527D96 /* KWAfterAllNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C670251B514F676190D436BF4C442F5D /* KWAfterAllNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -283,6 +291,14 @@
 		3A1E4B541CC647BC003FD3D3 /* NSData_Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData_Crypto.m; sourceTree = "<group>"; };
 		3A1E4B571CC64C05003FD3D3 /* NSDate_Stringify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDate_Stringify.h; sourceTree = "<group>"; };
 		3A1E4B581CC64C05003FD3D3 /* NSDate_Stringify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDate_Stringify.m; sourceTree = "<group>"; };
+		3AE98C491CCE008D0034240E /* UIDevice_Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDevice_Hardware.h; sourceTree = "<group>"; };
+		3AE98C4A1CCE008D0034240E /* UIDevice_Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDevice_Hardware.m; sourceTree = "<group>"; };
+		3AE98C4E1CCE00F90034240E /* UIImage_Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImage_Resize.h; sourceTree = "<group>"; };
+		3AE98C4F1CCE00F90034240E /* UIImage_Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImage_Resize.m; sourceTree = "<group>"; };
+		3AE98C521CCE01970034240E /* UIImage_Redraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImage_Redraw.h; sourceTree = "<group>"; };
+		3AE98C531CCE01970034240E /* UIImage_Redraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImage_Redraw.m; sourceTree = "<group>"; };
+		3AE98C581CCE03400034240E /* UIView_Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_Snapshot.h; sourceTree = "<group>"; };
+		3AE98C591CCE03400034240E /* UIView_Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_Snapshot.m; sourceTree = "<group>"; };
 		3D3E9211F5E98C6303AA2C7470826051 /* KWBlockRaiseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBlockRaiseMatcher.m; path = Classes/Matchers/KWBlockRaiseMatcher.m; sourceTree = "<group>"; };
 		3DF1F19DA3514D59ABBB08AC0729B16E /* KWExampleDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleDelegate.h; path = Classes/Core/KWExampleDelegate.h; sourceTree = "<group>"; };
 		3FE91A40EB2D94CA243D9B0915C01C9B /* KWStringPrefixMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringPrefixMatcher.m; path = Classes/Matchers/KWStringPrefixMatcher.m; sourceTree = "<group>"; };
@@ -568,6 +584,35 @@
 				3A1E4B581CC64C05003FD3D3 /* NSDate_Stringify.m */,
 			);
 			path = NSDate;
+			sourceTree = "<group>";
+		};
+		3AE98C481CCE00790034240E /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				3AE98C491CCE008D0034240E /* UIDevice_Hardware.h */,
+				3AE98C4A1CCE008D0034240E /* UIDevice_Hardware.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		3AE98C4D1CCE00E20034240E /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				3AE98C4E1CCE00F90034240E /* UIImage_Resize.h */,
+				3AE98C4F1CCE00F90034240E /* UIImage_Resize.m */,
+				3AE98C521CCE01970034240E /* UIImage_Redraw.h */,
+				3AE98C531CCE01970034240E /* UIImage_Redraw.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		3AE98C571CCE03100034240E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				3AE98C581CCE03400034240E /* UIView_Snapshot.h */,
+				3AE98C591CCE03400034240E /* UIView_Snapshot.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		3EF10A314B14A5EFB81115BAE897E24B /* Runtime */ = {
@@ -858,6 +903,9 @@
 		FD1C2D54EDF312199930040432F23C74 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				3AE98C571CCE03100034240E /* UIView */,
+				3AE98C4D1CCE00E20034240E /* UIImage */,
+				3AE98C481CCE00790034240E /* UIDevice */,
 				274B8F5881EC32678854E58D7D13D63C /* UITextField */,
 			);
 			path = UIKit;
@@ -870,7 +918,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE98C4B1CCE008D0034240E /* UIDevice_Hardware.h in Headers */,
 				3A1E4B551CC647BC003FD3D3 /* NSData_Crypto.h in Headers */,
+				3AE98C5A1CCE03400034240E /* UIView_Snapshot.h in Headers */,
+				3AE98C501CCE00F90034240E /* UIImage_Resize.h in Headers */,
+				3AE98C541CCE01970034240E /* UIImage_Redraw.h in Headers */,
 				3A1E4B4E1CC6367A003FD3D3 /* UITextField_InputMask.h in Headers */,
 				9732910676370C62CB81E3FED31E14FD /* NSObject_Swizzling.h in Headers */,
 				35DABC51AE84526843B55F213A0A9E6B /* UITextField_MaxLength.h in Headers */,
@@ -1111,10 +1163,14 @@
 			files = (
 				3A1E4B4F1CC6367A003FD3D3 /* UITextField_InputMask.m in Sources */,
 				9A7A491C880B603F9B029EF40CB4368C /* JZKits-dummy.m in Sources */,
+				3AE98C5B1CCE03400034240E /* UIView_Snapshot.m in Sources */,
 				3A1E4B5A1CC64C05003FD3D3 /* NSDate_Stringify.m in Sources */,
 				3A1E4B561CC647BC003FD3D3 /* NSData_Crypto.m in Sources */,
 				6195F7EC42174BBE946E14C72037ED1F /* NSObject_Swizzling.m in Sources */,
+				3AE98C511CCE00F90034240E /* UIImage_Resize.m in Sources */,
 				E0D2E98DE38D43E47301251CB1E61124 /* UITextField_MaxLength.m in Sources */,
+				3AE98C4C1CCE008D0034240E /* UIDevice_Hardware.m in Sources */,
+				3AE98C551CCE01970034240E /* UIImage_Redraw.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
