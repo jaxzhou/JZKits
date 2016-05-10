@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "summary": "A short description of JZKits.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JZKits",
+  "homepage": "https://github.com/jaxzhou/JZKits",
   "license": "MIT",
   "authors": {
     "JaxZhou": "zhoujinxiu@didapinche.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JZKits.git",
+    "git": "https://github.com/jaxzhou/JZKits.git",
     "tag": "0.1.0"
   },
   "platforms": {

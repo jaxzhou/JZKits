@@ -10,6 +10,8 @@
 		145E08B70027B34F6D912C50 /* libPods-JZKits_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 104B83364E2508C5DE5E1871 /* libPods-JZKits_Tests.a */; };
 		3A1E4B351CC60038003FD3D3 /* SwizzlingTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E4B341CC60038003FD3D3 /* SwizzlingTestCase.m */; };
 		3A1E4B3E1CC60DDD003FD3D3 /* UITextFieldExtensionTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E4B3D1CC60DDD003FD3D3 /* UITextFieldExtensionTestCase.m */; };
+		3A2884291CE1C9260079C236 /* NSStringChineseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2884281CE1C9260079C236 /* NSStringChineseTestCase.m */; };
+		3A28842B1CE2085F0079C236 /* NSDateExtensionTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A28842A1CE2085F0079C236 /* NSDateExtensionTestCase.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,6 +23,8 @@
 		1EA58984798DE30FECEE3054 /* JZKits.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JZKits.podspec; path = ../JZKits.podspec; sourceTree = "<group>"; };
 		3A1E4B341CC60038003FD3D3 /* SwizzlingTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzlingTestCase.m; sourceTree = "<group>"; };
 		3A1E4B3D1CC60DDD003FD3D3 /* UITextFieldExtensionTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextFieldExtensionTestCase.m; sourceTree = "<group>"; };
+		3A2884281CE1C9260079C236 /* NSStringChineseTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringChineseTestCase.m; sourceTree = "<group>"; };
+		3A28842A1CE2085F0079C236 /* NSDateExtensionTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateExtensionTestCase.m; sourceTree = "<group>"; };
 		53424FD87F728BC6033EE27C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +99,8 @@
 			children = (
 				3A1E4B341CC60038003FD3D3 /* SwizzlingTestCase.m */,
 				3A1E4B3D1CC60DDD003FD3D3 /* UITextFieldExtensionTestCase.m */,
+				3A2884281CE1C9260079C236 /* NSStringChineseTestCase.m */,
+				3A28842A1CE2085F0079C236 /* NSDateExtensionTestCase.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -241,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A1E4B351CC60038003FD3D3 /* SwizzlingTestCase.m in Sources */,
+				3A2884291CE1C9260079C236 /* NSStringChineseTestCase.m in Sources */,
+				3A28842B1CE2085F0079C236 /* NSDateExtensionTestCase.m in Sources */,
 				3A1E4B3E1CC60DDD003FD3D3 /* UITextFieldExtensionTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

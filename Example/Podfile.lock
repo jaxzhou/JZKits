@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JZKits: b2eadcb8460f141de717992c2f1ae4ffe2b3d7e7
+  JZKits: d7a01a5a9e7e51c240e9da6f26b210b8fdae16b1
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
 
 COCOAPODS: 0.39.0

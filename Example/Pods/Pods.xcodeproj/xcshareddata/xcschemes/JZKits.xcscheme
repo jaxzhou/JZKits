@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E2E14CCDF3F68005B778D0FED4722601"
+               BlueprintIdentifier = "E440B41166D00A344C3AC4DD3F61F161"
                BuildableName = "libJZKits.a"
                BlueprintName = "JZKits"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E2E14CCDF3F68005B778D0FED4722601"
+            BlueprintIdentifier = "E440B41166D00A344C3AC4DD3F61F161"
             BuildableName = "libJZKits.a"
             BlueprintName = "JZKits"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E2E14CCDF3F68005B778D0FED4722601"
+            BlueprintIdentifier = "E440B41166D00A344C3AC4DD3F61F161"
             BuildableName = "libJZKits.a"
             BlueprintName = "JZKits"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E2E14CCDF3F68005B778D0FED4722601"
+            BlueprintIdentifier = "E440B41166D00A344C3AC4DD3F61F161"
             BuildableName = "libJZKits.a"
             BlueprintName = "JZKits"
             ReferencedContainer = "container:Pods.xcodeproj">
