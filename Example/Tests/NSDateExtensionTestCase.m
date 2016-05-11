@@ -8,6 +8,7 @@
 
 #import "NSDate_Stringify.h"
 #import "NSDate_Caculator.h"
+#import "NSDate_ChineseLunar.h"
 
 SPEC_BEGIN(NSDateExtensionTests)
 
@@ -61,6 +62,28 @@ describe(@"NSDate Extension Test", ^{
             [[theValue(components.hour) should] equal:theValue(1)];
             [[theValue(components.minute) should] equal:theValue(18)];
             [[theValue(components.second) should] equal:theValue(0)];
+        });
+    });
+    context(@"chinese lunar", ^{
+        it(@"spring festeval", ^{
+            NSDate *testDate = [NSDate dateFromString:@"20160207100000" withFormat:@"yyyyMMddHHmmss"];
+            [[[testDate lunarHoliday] should] equal:@"除夕"];
+            testDate = [NSDate dateFromString:@"20160208100000" withFormat:@"yyyyMMddHHmmss"];
+            [[[testDate lunarHoliday] should] equal:@"春节"];
+        });
+        it(@"Holidays", ^{
+            NSDate *testDate = [NSDate dateFromString:@"20160222100000" withFormat:@"yyyyMMddHHmmss"];
+            [[[testDate lunarHoliday] should] equal:@"元宵"];
+            testDate = [NSDate dateFromString:@"20160609100000" withFormat:@"yyyyMMddHHmmss"];
+            [[[testDate lunarHoliday] should] equal:@"端午"];
+        });
+        it(@"lunar date", ^{
+            NSDate *testDate = [NSDate dateFromString:@"20160208100000" withFormat:@"yyyyMMddHHmmss"];
+            [[[testDate lunarDate] should] equal:@"正月初一"];
+            testDate = [NSDate dateFromString:@"20160511100000" withFormat:@"yyyyMMddHHmmss"];
+            [[[testDate lunarDate] should] equal:@"四月初五"];
+            testDate = [NSDate dateFromString:@"20160527100000" withFormat:@"yyyyMMddHHmmss"];
+            [[[testDate lunarDate] should] equal:@"四月廿一"];
         });
     });
 });
