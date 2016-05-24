@@ -29,27 +29,27 @@ describe(@"NSDate Extension Test", ^{
     });
     context(@"caculator", ^{
         it(@"year", ^{
-            NSDate *testDate = [NSDate dateWithTimeIntervalSince1970:1462882704];
+            NSDate *testDate  = [NSDate dateFromString:@"20160510201824" withFormat:@"yyyyMMddHHmmss"];
             [[theValue([testDate year]) should] equal:theValue(2016)];
         });
         it(@"month", ^{
-            NSDate *testDate = [NSDate dateWithTimeIntervalSince1970:1462882704];
+            NSDate *testDate  = [NSDate dateFromString:@"20160510201824" withFormat:@"yyyyMMddHHmmss"];
             [[theValue([testDate month]) should] equal:theValue(5)];
         });
         it(@"day", ^{
-            NSDate *testDate = [NSDate dateWithTimeIntervalSince1970:1462882704];
+            NSDate *testDate  = [NSDate dateFromString:@"20160510201824" withFormat:@"yyyyMMddHHmmss"];
             [[theValue([testDate day]) should] equal:theValue(10)];
         });
         it(@"hour", ^{
-            NSDate *testDate = [NSDate dateWithTimeIntervalSince1970:1462882704];
+            NSDate *testDate  = [NSDate dateFromString:@"20160510201824" withFormat:@"yyyyMMddHHmmss"];
             [[theValue([testDate hour]) should] equal:theValue(20)];
         });
         it(@"minutes", ^{
-            NSDate *testDate = [NSDate dateWithTimeIntervalSince1970:1462882704];
+            NSDate *testDate  = [NSDate dateFromString:@"20160510201824" withFormat:@"yyyyMMddHHmmss"];
             [[theValue([testDate minutes]) should] equal:theValue(18)];
         });
         it(@"seconds", ^{
-            NSDate *testDate = [NSDate dateWithTimeIntervalSince1970:1462882704];
+            NSDate *testDate  = [NSDate dateFromString:@"20160510201824" withFormat:@"yyyyMMddHHmmss"];
             [[theValue([testDate seconds]) should] equal:theValue(24)];
         });
         it(@"wrapper", ^{
