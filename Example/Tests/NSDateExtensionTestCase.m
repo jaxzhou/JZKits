@@ -29,6 +29,7 @@ describe(@"NSDate Extension Test", ^{
     });
     context(@"caculator", ^{
         beforeAll(^{
+            [NSTimeZone resetSystemTimeZone];
             [NSTimeZone setDefaultTimeZone:[NSTimeZone systemTimeZone]];
         });
         it(@"year", ^{
