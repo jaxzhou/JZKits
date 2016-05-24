@@ -85,6 +85,10 @@ describe(@"NSDate Extension Test", ^{
             testDate = [NSDate dateFromString:@"20160527100000" withFormat:@"yyyyMMddHHmmss"];
             [[[testDate lunarDate] should] equal:@"四月廿一"];
         });
+        it(@"lunar special day", ^{
+            NSDate *testDate = [NSDate dateFromString:@"20160505100000" withFormat:@"yyyyMMddHHmmss"];
+            [[[testDate lunarSpecialDay] should] equal:@"立夏"];
+        });
     });
 });
 
