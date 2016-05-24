@@ -13,10 +13,10 @@
 SPEC_BEGIN(NSDateExtensionTests)
 
 describe(@"NSDate Extension Test", ^{
-    beforeAll(^{
-        [NSTimeZone setDefaultTimeZone:[NSTimeZone timeZoneWithName:@"Asia/Shanghai"]];
-    });
     context(@"stringify", ^{
+        beforeAll(^{
+            [NSTimeZone setDefaultTimeZone:[NSTimeZone timeZoneWithName:@"Asia/Shanghai"]];
+        });
         it(@"Date to String", ^{
             NSDate *testDate = [NSDate dateWithTimeIntervalSince1970:1462882704];
             [[[testDate stringWithFormat:@"yyyyMMddHHmmss"] should] equal:@"20160510201824"];
@@ -28,6 +28,9 @@ describe(@"NSDate Extension Test", ^{
         });
     });
     context(@"caculator", ^{
+        beforeAll(^{
+            [NSTimeZone setDefaultTimeZone:[NSTimeZone systemTimeZone]];
+        });
         it(@"year", ^{
             NSDate *testDate  = [NSDate dateFromString:@"20160510201824" withFormat:@"yyyyMMddHHmmss"];
             [[theValue([testDate year]) should] equal:theValue(2016)];
