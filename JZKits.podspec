@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "JZKits"
   s.version          = "0.1.0"
-  s.summary          = "A short description of JZKits."
+  s.summary          = "iOS Kits created by JaxZhou"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,6 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+                        Kits created by JaxZhou,Include
+                        1,Runtime helper for swizzling
+                        2,UIKit Extensions
+                            2.1 UITextField
+                            2.2 UIImage
+                            2.3 UIVIew
+                            2.4 UIDevice
+                        3,Foundation Extensions
+                            3.1 Crypto of String and Data
+                            3.2 Date Paraser
                        DESC
 
   s.homepage         = "https://github.com/jaxzhou/JZKits"
